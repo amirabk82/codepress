@@ -1,0 +1,45 @@
+@font-face{
+    font-family: vazirNormal;
+    src:
+    url(../fonts/vaizr.eot) format(eot),
+    url(../fonts/vazir.ttf) format(TrueType),
+    url(../fonts/vazir.woff) format(woff),
+    url(../fonts/vazir.woff2) format(woff2);
+}
+body{
+    font-family: vazirNormal !important;
+    direction: rtl;
+}
+
+nav img{
+    width: 65px;
+}
+
+/* header */
+header{
+    background: url(../images/bg.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* cards: */
+#cards{
+    background-color: #F8F9FA;
+}
+.icon svg{
+    margin-top: 65px;
+    font-size: 50px !important;
+    color: #1E88E5 !important;
+}
+
+
+
+
+/* contact: */
+.contact{
+    background: url(../images/bg.jpg);
+    height: 200px;
+    background-position: bottom;
+    background-attachment: fixed;
+}
